@@ -172,14 +172,14 @@ function App() {
       {!bannerView && (
         <div className="bannercontainer">
           <div className="bannermessage">
-            <p>New Sekai Stickers mobile app is coming soon</p>
+            <p>二次元论坛</p>
             <a
-              href="https://link.ayaka.one/boM9XJ"
+              href="https://www.ecylt.top/"
               className="bannerbutton"
               target="_blank"
               rel="noreferrer"
             >
-              Learn more <span>&rarr;</span>
+              启动！ <span>&rarr;</span>
             </a>
           </div>
           <div className="bannerdismiss">
@@ -198,7 +198,7 @@ function App() {
         </div>
       )}
       <div className="counter">
-        Total Stickers you made: {config?.total || "Not available"}
+      你做的总贴纸: {config?.total || "Not available"}
       </div>
       <div className="container">
         <div className="vertical">
@@ -234,7 +234,7 @@ function App() {
           />
           <div className="settings">
             <div>
-              <label>Rotate: </label>
+              <label>旋转: </label>
               <Slider
                 value={rotate}
                 onChange={(e, v) => setRotate(v)}
@@ -247,7 +247,7 @@ function App() {
             </div>
             <div>
               <label>
-                <nobr>Font size: </nobr>
+                <nobr>字体大小: </nobr>
               </label>
               <Slider
                 value={fontSize}
@@ -261,7 +261,7 @@ function App() {
             </div>
             <div>
               <label>
-                <nobr>Spacing: </nobr>
+                <nobr>间距: </nobr>
               </label>
               <Slider
                 value={spaceSize}
@@ -274,7 +274,7 @@ function App() {
               />
             </div>
             <div>
-              <label>Curve (Beta): </label>
+              <label>曲线 (Beta): </label>
               <Switch
                 checked={curve}
                 onChange={(e) => setCurve(e.target.checked)}
@@ -298,16 +298,16 @@ function App() {
           </div>
           <div className="buttons">
             <Button color="secondary" onClick={copy}>
-              copy
+              复制
             </Button>
             <Button color="secondary" onClick={download}>
-              download
+              下载
             </Button>
           </div>
         </div>
         <div className="footer">
           <Button color="secondary" onClick={handleClickOpen}>
-            Info
+            作者详情
           </Button>
         </div>
       </div>

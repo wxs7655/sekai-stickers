@@ -35,7 +35,6 @@
 
 .settings {
   color: white;
-  font-family: "YurukaStd";
   margin: 1.5rem 0 1.5rem 0;
 }
 
@@ -84,7 +83,6 @@
 
 .footer {
   margin-top: 2rem;
-  font-family: "YurukaStd";
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,7 +116,6 @@
   text-align: left;
   color: white;
   font-weight: bold;
-  font-family: YurukaStd;
 }
 
 /* banner */
@@ -131,7 +128,6 @@
   overflow: hidden;
   background-color: #702464;
   padding: 10px 15px;
-  font-family: "YurukaStd";
 }
 
 .bannermessage {
