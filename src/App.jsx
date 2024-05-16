@@ -234,7 +234,7 @@ function App() {
           />
           <div className="settings">
             <div>
-              <label>旋转: </label>
+              <label>旋: </label>
               <Slider
                 value={rotate}
                 onChange={(e, v) => setRotate(v)}
